@@ -214,6 +214,23 @@ pheatmap(t(psi_matrix),
          cellheight = 30,     # Taller cells
          angle_col = 45)      # Diagonal labels for readability
 ```
+# Conclusions for D07 proliferating cells vs D77 neurons
+  1. 3' alternate splicing analysis- _SYNJ1_ appears to be one of the top differentially spliced genes between the two samples. Codes for synaptojanin 1 protein which is involved in endocytosis of synaptic vescicles. It is not clear which sample is D77 neurons, but given that this gene encodes a protein important for synpatic vesicular trafficking, I would predict that its expression is higher in the D77 sample compared to D07.
+  2. 5' alternate splicing analysis- _AUTS2_, a gene that is implicated in autism spectrum disorders, is differentially spliced between the 2 samples. Since it is important for neuronal migration, I would assume that the D77 sample has higher expression.
+  3. Retained intron analysis- _DDX1_ is an RNA helicase that is involved in neuronal differentiation
+  4. Mutually exclusive exon analysis- _PPFIA3_ encodes a scaffolding protein that is involved in maintaining the structure of synapses
+  5. Skipped econ analysis- top 10 differentially spliced genes do not appear to be different between the 2 samples
+Overall, genes that are differentially spliced between the data sets appear to be ones that are involved in neuronal differentiation.
+
+# Conclusions for WT vs _CELF_ shRNA knockdown D77 neurons 
+  1. 3' alternate splicing analysis- one of the top differentially spliced genes appears to be a long noncoding RNA
+  2. 5' alternate spllicing analysis- _ANK2_ which codes for ankyrin B appears to be differentially spliced between the 2 samples, suggesting it could be a target of _CELF5_
+  3. Retained intron analysis- _APRG1_ is another long noncoding RNA that is differentially spliced between the two samples
+  4. Mutually exclusive exon analysis- Top genes do not appear to be different between the two samples
+  5. Skipped exon analysis- Top genes do not appear to be different between these samples
+
+
+
 
 # Failed codes
 
